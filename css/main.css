@@ -30,6 +30,14 @@ p {
 a:hover {
   color: #dfc065; }
 
+a, button {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
 header button {
   color: #ffffff;
   background-color: transparent;
@@ -41,7 +49,8 @@ header button {
   margin: 50px 0 80px 0; }
 
 header button:hover {
-  background-color: rgba(38, 38, 38, 0.8); }
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000; }
 
 /* 2 - LAYOUTS STYLES */
 /* Header Styles */
